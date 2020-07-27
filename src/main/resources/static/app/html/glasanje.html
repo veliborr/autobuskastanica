@@ -1,0 +1,12 @@
+
+	<div ng-controller="PorukaGlasanjeCtrl">
+	<h1>Glasanje za predlog</h1>
+	<h6>Naslov: {{poruka.naslov}} </h6>
+	<h6>Opis: {{poruka.opis}} </h6>
+	<form>
+		<label for="komentar">Komentar</label>
+		<input id="komentar" />
+		<button ng-click="glasajZa()">Za</button>
+		<button ng-click="glasajProtiv()">Protiv</button>
+	</form>
+</div>
